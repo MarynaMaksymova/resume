@@ -1,0 +1,260 @@
+body {
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px;
+}
+
+/* main content section */
+
+.main-content-section {
+    padding: 100px 90px;
+}
+
+/* about me section */
+.about-me-section {
+    margin-bottom: 40px;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.about-me-profession {
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.about-me-descriptiion {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-align: justify;
+}
+
+/* my projects section */
+
+
+.my-projects-section {
+    margin-bottom: 50px;
+}
+
+.main-contant-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.my-projects-list {
+    padding: 0 0 0 18px;
+}
+
+.my-projects-item {
+    font-weight: bold;
+    color: black;
+}
+
+.my-project-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 13px;
+}
+
+.my-project-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+/*my work and education section*/
+
+.my-work-experience-company,
+.my-education-place {
+    color: #FB6D3A;
+}
+
+.my-work-experience-time,
+.my-education-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 0 8px;
+}
+
+/*my-work-experience-section*/
+
+.my-work-experience-section {
+    margin-bottom: 45px;
+}
+
+
+.my-work-experience-delicate {
+    margin-bottom: 15px;
+}
+
+.my-work-experience-delicate {
+    margin-bottom: 20px;
+}
+
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.my-work-experience-duties {
+    padding-left: 18px;
+}
+
+.my-work-experience-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+
+/* my-education-section */
+    
+.my-education-spesiality {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* sidebar section */
+.sidebar-section {
+    background-color: #1E2939;
+    min-width: 370px;
+    padding: 40px 0;
+}
+
+.sidebar-section img {
+    max-width: 100%;
+}
+
+.contakts-section,
+.tech-skills-section {
+    /* border: 1px solid red; */
+    margin: 50px 0 0 40px;
+}
+
+.languages-section{
+    margin: 45px 0 0 40px;
+}
+
+.sidebar-section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* contakts section */
+
+.contakts-section-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 7px;   
+}
+
+.phone-divider {
+    color: #808790;
+}
+
+.contakts-section-link {
+    color: #808790;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contakts-section-link.phone {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+/* tech-skills-list */
+.tech-skills-list {
+    padding: 0 0 0 17px;
+}
+
+/* languages-list */
+.languages-list {
+    padding: 0 0 0 17px;
+}
+
+.skills-item {
+    color: #FB6D3A;
+    /* padding-left: 10px; */
+}
+
+.skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
